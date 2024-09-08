@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div>
       <Layaut>
-        <h1 className="">home</h1>
+        <div className="w-full h-[3000px] bg-red-500"></div>        
       </Layaut>
 
 
