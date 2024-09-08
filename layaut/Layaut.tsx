@@ -10,7 +10,7 @@ interface LayautProps {
 const Layaut: React.FC<LayautProps> = ({ children }) => {
     return (
         <>
-            <header className='w-full fixed   h-[12vh] text-white text-[16px]  flex items-center justify-between pt-[2%] pl-[3%] pr-[3%]'>
+            <header className='w-full fixed  bg-blue-950  h-[12vh] text-white text-[16px]  flex items-center justify-between pt-[2%] pl-[3%] pr-[3%]'>
                 <div className="w-[25%]">
                     <Image src="/logo.svg" alt="logo" width={200} height={200} />
                 </div>
