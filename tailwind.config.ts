@@ -13,6 +13,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundColor: {
+        bgMain: "rgba(17, 17, 43, 1)",
+      },
     },
   },
   plugins: [],
